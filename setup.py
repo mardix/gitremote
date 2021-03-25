@@ -31,7 +31,7 @@ setup(
     entry_points=dict(console_scripts=['gitremote=gitremote:cli']),
     keywords=['git remote'],
     platforms='any',
-    install_requires=['pyyaml==3.11'],
+    install_requires=['pyyaml==5.4'],
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
